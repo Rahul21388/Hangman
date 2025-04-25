@@ -17,11 +17,12 @@
 
 ```
 hangman-game/
-├── main.py            # CLI-based Hangman game
-├── hangman_gui.py     # GUI version using Tkinter
-├── hangman_words.py   # List of possible words
-├── hangman_art.py     # ASCII art stages and logo
-└── README.md          # Project overview and instructions
+├── main.py                # CLI-based Hangman game
+├── hangman_gui.py         # GUI version using Tkinter
+├── hangman_words.py       # List of possible words
+├── hangman_art.py         # ASCII art stages and logo
+├── Hangman Flowchart.jpg  # Project Flowchart
+└── README.md              # Project overview and instructions
 ```
 
 ---
