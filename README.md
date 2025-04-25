@@ -1,24 +1,53 @@
 # Hangman Game 🎯
 
-**Hangman** is a simple and fun word-guessing game written in Python. The player tries to guess a hidden word one letter at a time. For every incorrect guess, a part of the hangman is drawn. The game ends when the player either guesses the word or the hangman is fully drawn.
+**Hangman** is a classic word-guessing game implemented in Python with both command-line and graphical user interface (GUI) versions. The player tries to guess a randomly chosen word, one letter at a time. For every incorrect guess, a part of the hangman is drawn. The game ends when the player either guesses the word correctly or loses all lives.
 
-## Features
-- Random word selection from a predefined list
-- ASCII art visuals for each stage of the game
-- Clear tracking of guessed letters
-- Win/Lose end conditions
+---
 
-## Project Structure
+## 🔧 Features
+- Random word selection from a word list
+- ASCII art visual stages for incorrect guesses
+- GUI version using Tkinter
+- Tracks guessed letters and lives
+- Win and loss conditions
+
+---
+
+## 📁 Project Structure
+
 ```
 hangman-game/
-├── main.py              # Main game logic
-├── hangman_words.py     # Contains the word list
-├── hangman_art.py       # Contains ASCII art for the game
-├── README.md            # Project information
-└── hangman_GUI.py       # Contains Hangman GUI game
+├── main.py            # CLI-based Hangman game
+├── hangman_gui.py     # GUI version using Tkinter
+├── hangman_words.py   # List of possible words
+├── hangman_art.py     # ASCII art stages and logo
+└── README.md          # Project overview and instructions
 ```
 
-## Sample Gameplay
+---
+
+## ▶️ How to Run
+
+### 🖥️ Run Command-Line Version
+
+Make sure Python is installed.
+
+```bash
+python main.py
+```
+
+### 🪟 Run GUI Version (Tkinter)
+
+```bash
+python hangman_gui.py
+```
+
+> No external packages are required. Tkinter comes built-in with standard Python distributions.
+
+---
+
+## 🕹️ Sample Gameplay (CLI)
+
 ```
 _ _ _ _ _
 Guess a letter: a
@@ -29,4 +58,7 @@ Guess a letter: e
 Correct!
 ```
 
-Enjoy the game, and feel free to customize the word list or ASCII art! 🎉
+---
+
+Enjoy playing Hangman — now in both terminal and GUI style! 🎉  
+Feel free to fork and enhance with word categories, themes, or difficulty settings.
