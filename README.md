@@ -15,7 +15,7 @@ hangman-game/
 ├── hangman_words.py     # Contains the word list
 ├── hangman_art.py       # Contains ASCII art for the game
 ├── README.md            # Project information
-└── .gitignore           # Ignored files/folders
+└── hangman_GUI.py       # Contains Hangman GUI game
 ```
 
 ## Sample Gameplay
